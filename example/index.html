@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/dart" src="app.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #width, #height {
+            width: 50px;
+        }
+
+        #text {
+            width: 200px;
+        }
+
+        #submit {
+            margin: 20px;
+        }
+    </style>
+    <title>Google QR for Dart</title>
+</head>
+<body>
+    <h1>Create QR Code</h1>
+    <div id="form-container">
+        <p>Text to embed in QR Code</p>
+        <textarea id="text"></textarea>
+        <div>
+            Image size:
+            <input type="number" id="width" value="500" placeholder="Width">
+                x
+            <input type="number" id="height" value="500" placeholder="Height">
+        </div>
+
+        <button id="submit">Create QR Code</button>
+    </div>
+    <div id="image-container">
+        <img src="" id="image">
+    </div>
+</body>
+</html>

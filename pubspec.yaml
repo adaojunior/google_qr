@@ -1,0 +1,12 @@
+name: google_qr
+description: Generate QR Code using Google's QR Generator
+version: 0.1.0
+author: Adao Jr.
+homepage: https://github.com/adaojunior/google_qr
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
+  browser: any
